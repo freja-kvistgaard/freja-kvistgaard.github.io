@@ -24,12 +24,12 @@ nav a { color:#4f555c; font-size:.9rem; }
 .content section:last-child { border-bottom:0; }
 h2 { margin:0 0 1.4rem; color:#292d32; font-family:"Source Serif 4",Georgia,serif; font-size:2.15rem; line-height:1.2; }
 h3 { margin:0 0 .35rem; color:#34383e; font-size:1.05rem; line-height:1.45; }
-h4 { margin:0 0 .4rem; color:#34383e; font-size:1rem; line-height:1.5; }
+h4 { margin:0 0 .1rem; color:#34383e; font-size:1rem; line-height:1.5; }
 p { margin:0 0 1rem; }
 .intro-section p { font-size:1.08rem; }
-.research-list { display:grid; gap:1rem; }
+.research-list { border-top:1px solid var(--line); }
 .research-item { padding:1.25rem 1.4rem; border-left:3px solid var(--blue); background:var(--soft); }
-.research-item p:last-child { margin-bottom:0; }
+.research-item p:last-child { border-bottom:0; }
 .research-item h3 { color:var(--blue); }
 .education-list { border-top:1px solid var(--line); }
 .education-item { padding:1.4rem 0; border-bottom:1px solid var(--line); }
