@@ -1,13 +1,13 @@
 :root { --blue:#246a8d; --blue-dark:#174b66; --ink:#30343b; --muted:#6d737b; --line:#e5e8eb; --soft:#f5f7f8; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
-body { margin:0; color:var(--ink); background:#fff; font-family:"Times New Roman",Times,serif; font-size:16px; line-height:1.7; }
+body { margin:0; color:var(--ink); background:#fff; font-family:Inter,Arial,sans-serif; font-size:16px; line-height:1.7; }
 a { color:var(--blue); text-decoration:none; }
 a:hover,a:focus-visible { color:var(--blue-dark); text-decoration:underline; }
 .skip-link { position:fixed; left:1rem; top:-4rem; z-index:20; padding:.6rem 1rem; color:#fff; background:var(--blue-dark); }
 .skip-link:focus { top:1rem; }
 .topbar { min-height:4.5rem; padding:0 max(1.5rem,calc((100vw - 1120px)/2)); display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); background:rgba(255,255,255,.96); position:sticky; top:0; z-index:10; }
-.site-name { color:var(--ink); font-family:"Times New Roman",Times,serif; font-size:1.25rem; font-weight:600; }
+.site-name { color:var(--ink); font-family:Inter,Arial,sans-serif; font-size:1.25rem; font-weight:600; }
 .site-name:hover { text-decoration:none; }
 nav { display:flex; gap:2rem; }
 nav a { color:#4f555c; font-size:.9rem; }
@@ -15,14 +15,14 @@ nav a { color:#4f555c; font-size:.9rem; }
 .page { width:min(1120px,calc(100% - 3rem)); margin:0 auto; padding:5.5rem 0 6rem; display:grid; grid-template-columns:250px minmax(0,720px); gap:clamp(4rem,9vw,8rem); }
 .profile { text-align:center; }
 .portrait { width:190px; height:190px; margin:0 auto 1.5rem; border-radius:50%; display:block; object-fit:cover; object-position:center; background:#dcebf0; }
-.profile h1 { margin:0 0 .25rem; font-family:"Times New Roman",Times,serif; font-size:1.65rem; line-height:1.25; }
+.profile h1 { margin:0 0 .25rem; font-family:Inter,Arial,sans-serif; font-size:1.65rem; line-height:1.25; }
 .role,.institution { margin:0; color:var(--muted); font-size:.92rem; }
 .institution { margin-bottom:1.5rem; }
 .profile-links { display:inline-flex; flex-direction:column; align-items:flex-start; gap:.4rem; margin:0; padding:0; list-style:none; font-size:.9rem; }
 .profile-links span { display:inline-block; width:1.5rem; text-align:center; color:var(--muted); }
 .content section { padding-bottom:3.5rem; margin-bottom:3.5rem; border-bottom:1px solid var(--line); scroll-margin-top:6rem; }
 .content section:last-child { border-bottom:0; }
-h2 { margin:0 0 1.4rem; color:#292d32; font-family:"Times New Roman",Times,serif; font-size:2.15rem; line-height:1.2; }
+h2 { margin:0 0 1.4rem; color:#292d32; font-family:Inter,Arial,sans-serif; font-size:2.15rem; line-height:1.2; }
 h3 { margin:0 0 .35rem; color:#34383e; font-size:1.05rem; line-height:1.45; }
 h4 { margin:0 0 .1rem; color:#34383e; font-size:1rem; line-height:1.5; }
 p { margin:0 0 1rem; }
