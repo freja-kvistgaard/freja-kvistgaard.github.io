@@ -28,8 +28,9 @@ h4 { margin:0 0 .1rem; color:#34383e; font-size:1rem; line-height:1.5; }
 p { margin:0 0 1rem; }
 .intro-section p { font-size:1.08rem; }
 .research-list { border-top:1px solid var(--line); }
-.research-item { padding:1.25rem 1.4rem; border-left:3px solid var(--blue); background:var(--soft); }
-.research-item p:last-child { border-bottom:0; }
+.research-item { padding:1.4rem 0; border-bottom:1px solid var(--line); }
+.research-item:last-child { border-bottom:0; }
+.research-item p:last-child { margin-bottom:0; }
 .research-item h3 { color:var(--blue); }
 .education-list { border-top:1px solid var(--line); }
 .education-item { padding:1.4rem 0; border-bottom:1px solid var(--line); }
